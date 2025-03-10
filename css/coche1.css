@@ -1,0 +1,138 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #262436;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+nav img.logo {
+    height: 120px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #4393fd;
+}
+
+/* Estilos del contenedor principal */
+
+h1{
+    font-family:sans-serif;
+    color: #262436;
+    margin-left: 37%;
+}
+
+.SobreNosotros ol li  em{
+    color: rgb(15, 112, 192);
+}
+
+.Sobre{
+    margin-top:20%;
+}
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.coche1 {
+   margin-top:30px;
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.coche1:hover {
+    transform: scale(1.05);
+}
+
+.coche1 img {
+    width: 50%;
+    border-radius: 8px;
+}
+
+.coche1 h3 {
+    color: #222;
+    font-size: 22px;
+    font-family:Impact;
+    margin-bottom: 10px;
+}
+
+/*carrusel*/
+.carousel-item img {
+    width: 200%;  /* Hace que la imagen ocupe todo el ancho del carrusel */
+    height: 600px; /* Ajusta la altura deseada para todas las imágenes */
+    object-fit: cover; /* Recorta la imagen para que se adapte sin deformarse */
+    margin-bottom: 10%;
+    padding: 30px;
+}
+
+/* Pie de página */
+footer.pie {
+    background:#262436;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+/*menu*/
+.dropdown{
+    float: right;
+    margin-top: 40px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown .btn {
+    background-color: #ff5733; /* Color de fondo */
+    border: none; 
+    padding: 10px 20px;
+}
+
+.dropdown-menu {
+    background-color: #333; /* Fondo del menú */
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #ff5733;
+}
